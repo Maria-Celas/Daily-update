@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css files/signupform.css" />
+
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <img src="./images/Group 232.png" alt="image" />
+        <p class="p1">Our Philosophy</p>
+        <p class="p2">Attention. Always.</p>
+        <img class="logo" src="./images/Image 56.png" alt="image" />
+      </div>
+      <div class="form-fill">
+        <p class="p3">Hello!</p>
+        <p class="p4">Employee Portal Sign Up</p>
+        <label class="p5" for="uname">Username</label>
+        <input
+          class="username"
+          type="text"
+          placeholder="Username"
+          name="uname"
+          required
+        />
+        <label class="p6" for="email">Email</label>
+        <input
+          class="email"
+          type="email"
+          placeholder="example@aspiresys.com"
+          name="email"
+          required
+        />
+        <label class="p7" for="psw">Password</label>
+        <input
+          class="password"
+          id="id_password"
+          type="password"
+          placeholder="Password"
+          name="psw"
+          required
+        />
+        <i class="far fa-eye" id="togglePassword"></i>
+        <label class="p8" for="service-line">Service line</label>
+        <select class="choose" name="service-line">
+          <option value="Select">Select</option>
+          <option value="Development">Development</option>
+          <option value="Testing">Testing</option>
+          <option value="Data Analytics">Data Analytics</option>
+          <option value="HR">HR</option>
+        </select>
+        <button type="button">Create your Account</button>
+      </div>
+    </div>
+
+    <script src="./js files/signupform.js"></script>
+  </body>
+</html>
