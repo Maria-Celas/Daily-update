@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1920px;
+  height: 1083px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/Group\ 233.png);
+  opacity: 1;
+}
+
+.container .banner {
+  width: 683px;
+  height: 826px;
+  position: relative;
+}
+
+.container .form-fill {
+  width: 683px;
+  height: 826px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.p1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 900;
+  position: absolute;
+  top: 348px;
+  left: 101px;
+  width: 482px;
+  height: 84px;
+}
+
+.p2 {
+  color: #ffffff;
+  font-size: 40px;
+  position: absolute;
+  top: 422px;
+  left: 167px;
+  width: 350px;
+  height: 56px;
+}
+
+.logo {
+  width: 165px;
+  height: 86px;
+  position: absolute;
+  top: 673px;
+  left: 260px;
+}
+
+.p3 {
+  color: #28233c;
+  font-size: 40px;
+  position: absolute;
+  top: 77px;
+  left: 106px;
+}
+
+.p4 {
+  color: #ada9bf;
+  font-size: 20px;
+  position: absolute;
+  top: 133px;
+  left: 109px;
+}
+
+.p5 {
+  color: #353047;
+  font-size: 16px;
+  position: absolute;
+  top: 205px;
+  left: 106px;
+}
+
+.username {
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #353047;
+  width: 400px;
+  position: absolute;
+  top: 245px;
+  left: 106px;
+}
+
+.p6 {
+  color: #353047;
+  font-size: 16px;
+  position: absolute;
+  top: 308px;
+  left: 106px;
+}
+
+.email {
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #353047;
+  width: 400px;
+  position: absolute;
+  top: 348px;
+  left: 106px;
+}
+
+.p7 {
+  color: #353047;
+  font-size: 16px;
+  position: absolute;
+  top: 412px;
+  left: 106px;
+}
+
+.password {
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #353047;
+  width: 400px;
+  position: absolute;
+  top: 452px;
+  left: 106px;
+}
+
+#togglePassword {
+  width: 18px;
+  height: 11px;
+  position: absolute;
+  top: 452px;
+  left: 478px;
+  cursor: pointer;
+}
+
+.p8 {
+  color: #353047;
+  font-size: 16px;
+  position: absolute;
+  top: 515px;
+  left: 106px;
+}
+
+.choose {
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #353047;
+  width: 400px;
+  position: absolute;
+  top: 555px;
+  left: 106px;
+}
+
+button[type="button"] {
+  width: 400px;
+  height: 50px;
+  background: transparent linear-gradient(258deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 2px;
+  color: #ffff;
+  border: none;
+  opacity: 1;
+  font-size: 20px;
+  position: relative;
+  top: 629px;
+  left: 106px;
+}
+
+/* .form-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 1366px;
+  height: 826px;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+} */
+
+/*
+.backgrounnd-image {
+  width: 683px;
+  height: 826px;
+}
+
+.banner {
+  z-index: 100;
+}
+
+.banner .p1 {
+  position: absolute;
+  font-size: 60px;
+  top: 348px;
+  left: 101px;
+
+  color: #ffffff;
+}
+
+.banner .p2 {
+  position: absolute;
+  font-size: 40px;
+  color: #ffffff;
+  top: 422px;
+  left: 167px;
+}
+
+.banner img {
+  position: absolute;
+  top: 673px;
+  left: 276px;
+}
+
+.sign-in {
+  position: absolute;
+  width: 401px;
+  height: 528px;
+  top: 138px;
+  left: 788px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.sign-in .p3 {
+  font-size: 40px;
+  color: #28233c;
+  position: absolute;
+  top: 0px;
+}
+
+.sign-in .p4 {
+  font-size: 20px;
+  color: #ada9bf;
+  position: absolute;
+  top: 50px;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group label {
+  color: #353047;
+  width: fit-content;
+  height: 23px;
+  font-size: 16px;
+  position: absolute;
+  top: 100px;
+}
+
+.input-group input {
+  color: #353047;
+  font-size: 16px;
+  position: absolute;
+  top: 130px;
+  border: none;
+  border-bottom: 2px solid #353047;
+}
+
+.remember-me {
+  position: absolute;
+  top: 321px;
+}
+
+.remember-me p {
+  font-size: 14px;
+  width: 115px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  left: 25px;
+  color: #363147;
+}
+
+.forgot-password {
+  position: relative;
+  top: 90px;
+  left: 263px;
+}
+
+.forgot-password a {
+  color: #363147;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  width: 120px;
+  height: 50px;
+  background: transparent linear-gradient(258deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 2px;
+  color: #ffff;
+  border: none;
+  opacity: 1;
+  font-size: 20px;
+  position: relative;
+  top: 36px;
+}
+
+.last-p p {
+  font-size: 14px;
+  position: relative;
+  top: 45px;
+}
+
+.last-p a {
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+  left: 177px;
+  text-decoration: none;
+  color: #3f2985;
+} */
