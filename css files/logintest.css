@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1920px;
+  height: 1083px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/Group\ 233.png);
+  opacity: 1;
+}
+
+.container .banner {
+  width: 683px;
+  height: 826px;
+  position: relative;
+}
+
+.container .form-fill {
+  width: 683px;
+  height: 826px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.p1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: medium;
+  position: absolute;
+  top: 348px;
+  left: 101px;
+  width: 482px;
+  height: 84px;
+}
+
+.p2 {
+  color: #ffffff;
+  font-size: 40px;
+  position: absolute;
+  top: 422px;
+  left: 167px;
+  width: 350px;
+  height: 56px;
+}
+
+.logo {
+  width: 165px;
+  height: 86px;
+  position: absolute;
+  top: 673px;
+  left: 260px;
+}
+
+.p3 {
+  color: #28233c;
+  font-size: 40px;
+  position: absolute;
+  top: 138px;
+  left: 106px;
+}
+
+.p4 {
+  color: #ada9bf;
+  font-size: 20px;
+  position: absolute;
+  top: 194px;
+  left: 108px;
+}
+
+.p5 {
+  color: #353047;
+  font-size: 16px;
+  position: absolute;
+  top: 287px;
+  left: 106px;
+}
+
+.username {
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #353047;
+  width: 401px;
+  height: 23px;
+  position: absolute;
+  top: 327px;
+  left: 106px;
+}
+
+.p6 {
+  color: #353047;
+  font-size: 16px;
+  position: absolute;
+  top: 399px;
+  left: 106px;
+}
+
+.password {
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #353047;
+  width: 400px;
+  position: absolute;
+  top: 439px;
+  left: 106px;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 497px;
+  left: 106px;
+}
+
+.remember-me {
+  font-size: 14px;
+  position: absolute;
+  top: 495px;
+  left: 135px;
+}
+
+.forgot-password {
+  font-size: 14px;
+  position: absolute;
+  top: 495px;
+  left: 366px;
+  text-decoration: none;
+  color: #363147;
+}
+
+button[type="submit"] {
+  width: 120px;
+  height: 50px;
+  background: transparent linear-gradient(258deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 2px;
+  color: #ffff;
+  border: none;
+  opacity: 1;
+  font-size: 20px;
+  position: relative;
+  top: 551px;
+  left: 106px;
+}
+
+.p7 {
+  color: #363147;
+  font-size: 14px;
+  position: absolute;
+  top: 646px;
+  left: 105px;
+}
+
+.signup {
+  color: #3f2985;
+  text-decoration: none;
+  font-weight: 600;
+  position: absolute;
+  top: 643px;
+  left: 278px;
+}
