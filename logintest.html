@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css files/logintest.css" />
+    <script src="./js files/logintest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- *************************** PART 1 *************************************** -->
+      <div class="banner">
+        <img src="./images/Group 232.png" alt="image" />
+        <p class="p1">Our Philosophy</p>
+        <p class="p2">Attention. Always.</p>
+        <img class="logo" src="./images/Image 56.png" alt="image" />
+      </div>
+
+      <!-- *************************** PART 2 *************************************** -->
+      <div class="form-fill">
+        <p class="p3">Hello!</p>
+        <p class="p4">Employee Portal Login</p>
+
+        <div class="error" id="div_error"></div>
+        <div class="success"></div>
+
+        <form
+          name="form_login"
+          method="post"
+          action="success.php"
+          onsubmit="return formValidation()"
+        >
+          <label class="p5" for="uname">Username</label>
+          <input
+            id="username"
+            class="username"
+            type="text"
+            placeholder="example@aspiresys.com"
+            name="uname"
+          />
+
+          <label class="p6" for="psw">Password</label>
+          <input
+            id="password"
+            class="password"
+            type="password"
+            placeholder="***************"
+            name="psw"
+          />
+          <input type="checkbox" name="remember" />
+
+          <label class="remember-me"> Remember me </label>
+
+          <a href="#" class="forgot-password">Forgot Password?</a>
+
+          <input type="submit" name="btn-register" value="Sign In" />
+
+          <p class="p7">Don’t have an account?</p>
+
+          <a class="signup" href="/signupform.html">Sign Up</a>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    function formValidation() {
+      var user_name = $("#username").val();
+      var pswd = $("#password").val();
+
+      // validating username
+
+      if ((user_name = " ")) {
+        $("#div_error").show();
+        $("#div_error").text("Cannot leave this empty");
+        return false;
+      } else {
+        var pattern_uname = /^[a-zA-Z0-9]+$/;
+        if (!pattern_uname.test(user_name)) {
+          $("#div_error").show();
+          $("#div_error").text("Please enter a valid username");
+          return false;
+        }
+      }
+      return true;
+    }
+  </script>
+  </body>
+</html>
